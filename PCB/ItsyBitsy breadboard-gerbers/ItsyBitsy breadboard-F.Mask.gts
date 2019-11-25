@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0-rc2-dev-444-g2974a2c10)*
-G04 #@! TF.CreationDate,2019-11-24T22:34:12-08:00*
+G04 #@! TF.CreationDate,2019-11-25T14:51:07-08:00*
 G04 #@! TF.ProjectId,ItsyBitsy breadboard,49747379426974737920627265616462,v02*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.0-rc2-dev-444-g2974a2c10)) date 11/24/19 22:34:12*
+G04 Created by KiCad (PCBNEW (5.0.0-rc2-dev-444-g2974a2c10)) date 11/25/19 14:51:07*
 %MOMM*%
 %LPD*%
 G01*
