@@ -1062,6 +1062,7 @@
   (module digikey-footprints:SOT-363 (layer F.Cu) (tedit 5DD8D011) (tstamp 5DD8B3C8)
     (at 135.678666 109.769407 270)
     (path /5DD9291D)
+    (attr smd)
     (fp_text reference Q1 (at 1.778 -0.127) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
