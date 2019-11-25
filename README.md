@@ -1,4 +1,4 @@
-### _A stacking breakout adapter for the ItsyBitsy M4 Express_
+### _A stacking breadboard adapter for the ItsyBitsy M4 Express_
 
 # ItsyBitsyBreadboardAdapter
 
