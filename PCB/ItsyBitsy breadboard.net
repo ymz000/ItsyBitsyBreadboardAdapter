@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Jan\\Documents\\GitHub\\ItsyBitsyBreadboardAdapter\\PCB\\ItsyBitsy breadboard.sch")
-    (date "11/25/2019 3:09:05 PM")
+    (date "11/25/2019 3:09:42 PM")
     (tool "Eeschema (5.0.0-rc2-dev-444-g2974a2c10)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

@@ -97,8 +97,6 @@ Wire Wire Line
 	8275 5375 8275 5325
 Wire Wire Line
 	8275 5325 8400 5325
-Wire Wire Line
-	8275 5225 8400 5225
 $Comp
 L conn:CONN_01X16 J2
 U 1 1 5C71AB8C
@@ -675,9 +673,9 @@ Wire Wire Line
 	6100 5625 6100 5950
 Wire Wire Line
 	7225 5625 7350 5625
-Text Label 7750 5025 0    50   ~ 0
+Text Label 7950 5025 0    50   ~ 0
 STEMMA_SCL
-Text Label 7750 5125 0    50   ~ 0
+Text Label 7950 5125 0    50   ~ 0
 STEMMA_SDA
 Text Label 5575 5025 0    50   ~ 0
 SCL_RX
@@ -723,8 +721,6 @@ Wire Wire Line
 	6225 5325 6100 5325
 Wire Wire Line
 	6100 5325 6100 4650
-Wire Wire Line
-	7550 5125 8400 5125
 Wire Wire Line
 	6100 5950 7550 5950
 Wire Wire Line
@@ -1017,11 +1013,7 @@ F 3 "" H 8275 4075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7650 5025 8400 5025
-Wire Wire Line
 	8375 3925 8375 3750
-Wire Wire Line
-	8275 4350 8275 5225
 Wire Wire Line
 	8175 3825 8175 3850
 Wire Wire Line
@@ -1036,11 +1028,8 @@ Wire Wire Line
 	8175 3850 8175 3925
 Wire Wire Line
 	8275 4225 8275 4350
-Connection ~ 8275 4350
 Wire Wire Line
-	6725 3850 8175 3850
-Wire Wire Line
-	7250 4350 8275 4350
+	6725 3850 8050 3850
 Wire Wire Line
 	6825 3925 7250 3925
 Wire Wire Line
@@ -1051,4 +1040,33 @@ Wire Wire Line
 	6100 3850 6625 3850
 Connection ~ 6100 4650
 Connection ~ 6625 3850
+Wire Wire Line
+	7750 5225 8400 5225
+Wire Wire Line
+	7250 4350 7750 4350
+Wire Wire Line
+	7750 5225 7750 5125
+Connection ~ 7750 4350
+Wire Wire Line
+	7750 4350 8050 4350
+Wire Wire Line
+	7750 5025 7750 4350
+Wire Wire Line
+	7750 5125 7750 5025
+Wire Wire Line
+	7650 5025 8400 5025
+Wire Wire Line
+	7550 5125 8400 5125
+Text Label 8125 4350 0    50   ~ 0
++V
+Wire Wire Line
+	8050 4350 8050 3850
+Connection ~ 8050 4350
+Wire Wire Line
+	8050 4350 8275 4350
+Connection ~ 8050 3850
+Wire Wire Line
+	8050 3850 8175 3850
+Text Notes 8425 4325 0    50   ~ 0
+Defaults to +3.3V
 $EndSCHEMATC

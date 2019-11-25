@@ -268,10 +268,6 @@ BAT
 Wire Wire Line
 	5200 1250 5750 1250
 Wire Wire Line
-	5875 1450 5875 925 
-Wire Wire Line
-	5200 1450 5875 1450
-Wire Wire Line
 	4500 3000 4500 3300
 Wire Wire Line
 	4500 3300 3525 3300
@@ -420,17 +416,6 @@ F 3 "" H 2850 7475 50  0001 C CNN
 $EndComp
 Text Notes 4550 6750 0    50   ~ 0
 Battery
-$Comp
-L power:+5V #PWR0101
-U 1 1 5CDD68C7
-P 5875 925
-F 0 "#PWR0101" H 5875 775 50  0001 C CNN
-F 1 "+5V" H 5890 1098 50  0000 C CNN
-F 2 "" H 5875 925 50  0001 C CNN
-F 3 "" H 5875 925 50  0001 C CNN
-	1    5875 925 
-	1    0    0    -1  
-$EndComp
 $Comp
 L conn:CONN_01X05 J6
 U 1 1 5CDE26C5
@@ -744,8 +729,6 @@ Wire Wire Line
 	2850 6475 2850 6175
 Wire Wire Line
 	2850 6175 2500 6175
-Text Label 2500 6175 0    50   ~ 0
-Vhi
 $Comp
 L device:R_Small R4
 U 1 1 5E1A1DA5
@@ -1069,4 +1052,8 @@ Wire Wire Line
 	8050 3850 8175 3850
 Text Notes 8425 4325 0    50   ~ 0
 Defaults to +3.3V
+Wire Wire Line
+	5200 1450 5750 1450
+Text Label 2500 6175 2    50   ~ 0
+USB
 $EndSCHEMATC
