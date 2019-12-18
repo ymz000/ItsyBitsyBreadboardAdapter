@@ -382,17 +382,17 @@ ENDDEF
 DEF dk_Transistors-FETs-MOSFETs-Arrays:BSS138DW-7-F Q 0 0 Y Y 1 F N
 F0 "Q" -500 400 60 H V C CNN
 F1 "dk_Transistors-FETs-MOSFETs-Arrays:BSS138DW-7-F" 900 -400 60 H V C CNN
-F2 "digikey-footprints:SOT-363" 200 200 60 H I L CNN
-F3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" 200 300 60 H I L CNN
-F4 "BSS138DW-FDICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "BSS138DW-7-F" 200 500 60 H I L CNN "MPN"
-F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
-F7 "Transistors - FETs, MOSFETs - Arrays" 200 700 60 H I L CNN "Family"
-F8 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/diodes-incorporated/BSS138DW-7-F/BSS138DW-FDICT-ND/808541" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "MOSFET 2N-CH 50V 0.2A SC70-6" 200 1000 60 H I L CNN "Description"
-F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
+F2 "digikey-footprints:SOT-363" 850 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" 850 300 60 H I L CNN
+F4 "BSS138DW-FDICT-ND" 850 400 60 H I L CNN "Digi-Key_PN"
+F5 "BSS138DW-7-F" 850 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 850 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Arrays" 850 700 60 H I L CNN "Family"
+F8 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" 850 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/diodes-incorporated/BSS138DW-7-F/BSS138DW-FDICT-ND/808541" 850 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET 2N-CH 50V 0.2A SC70-6" 850 1000 60 H I L CNN "Description"
+F11 "Diodes Incorporated" 850 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 850 1200 60 H I L CNN "Status"
 DRAW
 C -300 -225 7 1 1 0 F
 C -300 225 7 1 1 0 F
