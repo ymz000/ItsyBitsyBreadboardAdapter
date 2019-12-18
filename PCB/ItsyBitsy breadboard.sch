@@ -689,13 +689,13 @@ F 3 "" H 5300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 4925 4750 4925
+	5150 4925 4950 4925
 Text Label 4750 4925 0    50   ~ 0
 SCL
 Wire Wire Line
 	5150 5125 4750 5125
 Wire Wire Line
-	5150 5450 4750 5450
+	5150 5450 4950 5450
 Text Label 4750 5450 0    50   ~ 0
 SDA
 Wire Wire Line
@@ -934,13 +934,11 @@ D1-TX
 Text Label 4750 5125 0    50   ~ 0
 D0-RX
 Wire Wire Line
-	5450 5550 5900 5550
-Wire Wire Line
 	5900 5550 5900 6025
 Wire Wire Line
 	7225 5025 7650 5025
 Wire Wire Line
-	5450 5025 6000 5025
+	5450 5025 5550 5025
 Wire Wire Line
 	6525 3925 6525 3975
 Wire Wire Line
@@ -1056,4 +1054,30 @@ Wire Wire Line
 	5200 1450 5750 1450
 Text Label 2500 6175 2    50   ~ 0
 USB
+Wire Wire Line
+	4950 4925 4950 4625
+Wire Wire Line
+	4950 4625 5550 4625
+Wire Wire Line
+	5550 4625 5550 5025
+Connection ~ 4950 4925
+Wire Wire Line
+	4950 4925 4750 4925
+Connection ~ 5550 5025
+Wire Wire Line
+	5550 5025 6000 5025
+Wire Wire Line
+	4950 5450 4950 5300
+Wire Wire Line
+	4950 5300 5550 5300
+Wire Wire Line
+	5550 5300 5550 5550
+Wire Wire Line
+	5450 5550 5550 5550
+Connection ~ 4950 5450
+Wire Wire Line
+	4950 5450 4750 5450
+Connection ~ 5550 5550
+Wire Wire Line
+	5550 5550 5900 5550
 $EndSCHEMATC

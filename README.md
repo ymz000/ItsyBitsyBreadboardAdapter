@@ -11,4 +11,4 @@ Included is a level-shifted 4-pin JST STEMMA connector with jumper-selectable 5v
 
 ![Image of PCB](https://github.com/CedarGroveStudios/ItsyBitsyBreadboardAdapter/blob/master/photos/ItsyBitsy_breadboard_PCB_combo_wide.png)
 
-OSH Park shared project: <a href="https://oshpark.com/shared_projects/072sn1iA"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+OSH Park shared project: <a href="https://oshpark.com/shared_projects/2K1V8CQO"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
